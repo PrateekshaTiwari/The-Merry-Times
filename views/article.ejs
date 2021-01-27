@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+    <div class="fullArticle">
+        <h2>
+            <%= newsArticle.title %>
+        </h2>
+        <img src=<%=newsArticle.imageLink %> alt="">
+        <p>
+            <%= newsArticle.content %>
+        </p>
+        <button onclick="startSpeech()" class="btn btn-primary listenButton"><i
+                class="fas fa-volume-up"></i> Listen</button>
+        <button onclick="stopSpeech()" class="btn btn-danger listenButton"><i class="far fa-stop-circle"></i> Stop
+        </button>
+    </div> 
+   
+    <script src='/js/script.js' type='text/javascript'></script>
+
+    <%- include("partials/footer"); -%>

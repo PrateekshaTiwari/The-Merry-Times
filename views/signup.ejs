@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+    <form class="formStyle" method="POST">
+        <span class="loginSignupHeading">SignUp to create an account!</span>
+        <div class="form-group topfield">
+            <input type="email" name="username" class="form-control" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" class="form-control" placeholder="Enter password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <%- include("partials/footer"); -%>

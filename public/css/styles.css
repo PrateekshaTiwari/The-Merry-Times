@@ -1,0 +1,110 @@
+body {
+    background-color: #bedbbb;
+}
+
+.aboutContent {
+    font-size: 1.25rem;
+    padding: 100px;
+}
+
+.carouselImage {
+    height: 500px;
+    width: 100%;
+}
+
+.imageText {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #fcf876;
+}
+
+.navbarHeading {
+    font-family: 'Fredoka One', cursive;
+}
+
+.homeArticle {
+    margin: 40px auto;
+    padding: 40px 40px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: cornsilk;
+}
+
+.homeArticle h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.homeArticle p {
+    color: black;
+}
+
+.homeArticle img {
+    height: 250px;
+    width: 400px;
+}
+
+
+.homeArticle a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.formStyle {
+    text-align: center;
+    width: 25%;
+    margin: 100px auto;
+}
+
+.publishForm {
+    margin: 20px;
+    width: 50%;
+}
+
+.publishForm textarea {
+    border: none;
+}
+
+.footer {
+    background-color:#3797a4;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.topfield {
+    padding: 20px 0 0;
+}
+
+.loginSignupHeading {
+    font-size: 1.5rem;
+}
+
+.fullArticle {
+    text-align: center;
+    background-color:  cornsilk;
+}
+
+.fullArticle h2{
+    padding: 20px;
+}
+
+.fullArticle img {
+    border-radius: 10%;
+    margin-bottom: 30px;
+}
+
+.fullArticle p {
+    padding: 0 20px;
+}
+
+.listenButton {
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+

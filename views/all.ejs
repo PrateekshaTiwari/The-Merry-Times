@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+  <div class="container">
+    <div class="row">
+      <% for(let i=0; i < newsArticles.length; i++){ %>
+        <div class="homeArticle col-lg-5">
+          <a href="/articles/<%= newsArticles[i]._id%>">
+            <h3>
+              <%= newsArticles[i].title %>
+            </h3>
+            <p>
+              <%= newsArticles[i].content.substring(0,200) %>...
+            </p>
+            <img src=<%=newsArticles[i].imageLink %> alt="image">
+          </a>
+        </div>
+        <% } %>
+    </div>
+  </div>
+
+  <%- include("partials/footer"); -%>

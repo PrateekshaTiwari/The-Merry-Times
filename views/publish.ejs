@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+    <form class="publishForm" method="POST">
+        <h3>Create your news article</h3>
+        <div class="form-group">
+            <input type="text" name="title" class="form-control" placeholder="News title" required>
+        </div>
+        <div class="form-group">
+            <textarea rows="4" name="content" class="form-control" placeholder="News content" required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="text" name="image" class="form-control" placeholder="Image Link" required>
+        </div>
+        <div class="form-group">
+            <input type="text" name="source" class="form-control" placeholder="News source" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <p style="text-align: center;">To visit all your articles <a href="/publisherArticles">Click Here</a></p>
+
+    <%- include("partials/footer"); -%>
